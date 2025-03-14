@@ -1,0 +1,71 @@
+.profile {
+  max-width: 320px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  gap: 10px;
+
+  margin: 0 auto;
+  border: 5px solid #3e3a3a;
+  border-radius: 20px;
+
+  color: #737070;
+
+  box-shadow: 0 -5px 0px 0px #f9f8f8, 0 7px 5px 0px #4c4b4b,
+    0 5px 20px 0 #757373, 0 10px 40px 5px #9e9b9b;
+}
+.profile img {
+  width: 200px;
+  height: 200px;
+  margin: -30px;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: #1f1f1f;
+  background: radial-gradient(#000000 10%, #f8f7f7 100%);
+  border: 5px solid #cbc8c8;
+  box-shadow: 5px 5px 8px 3px #3e3a3a, 0px 15px 15px 5px #918f8f,
+    0px 10px 30px 10px #f7f8f8;
+  margin-block-end: 30px;
+}
+.profile p {
+  margin: 0;
+  padding: 0;
+}
+.profile img + p {
+  font-size: 23px;
+  font-weight: 900;
+  letter-spacing: 1.1;
+  color: #000000;
+}
+.profile ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #cdcbc9;
+  border-top: 2px solid #3e3a3a;
+  border-radius: 0 0 10px 10px;
+}
+.profile ul li {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  flex-grow: 1;
+  color: #000000;
+}
+
+.profile ul li:not(:last-child) {
+  border-right: 2px solid #515050;
+}
+.profile ul li span:last-of-type {
+  font-weight: 600;
+  font-size: 20px;
+}

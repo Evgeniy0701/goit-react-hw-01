@@ -1,0 +1,32 @@
+.friendListItem {
+  max-width: 70px;
+  height: auto;
+  padding: 20px 10px;
+  background-color: #f9f9f6;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid #7b7a7a;
+  box-shadow: 0 -5px 0px 0px #f9f8f8, 0 7px 5px 0px #4c4b4b,
+    0 5px 10px 0 #343131, 0 10px 30px 5px #9e9b9b;
+  background: linear-gradient(
+    0deg,
+    #1f1f1f 3%,
+    #fff 30%,
+
+    #fff 50%,
+    #1f1f1f 70%,
+    #9c9c9c 100%
+  );
+}
+.friendListItem p {
+  padding: 0;
+  margin: 0;
+}
+.friendListItem p:first-of-type {
+  font-size: 20px;
+  font-weight: 700;
+}
